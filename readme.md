@@ -7,19 +7,19 @@
 
 > 2: Garanta que o arquivo backup.sh possa ser executado pelo sistema operacional
 ```console
-$ chmod +x backup.sh
+chmod +x backup.sh
 ```
 
 > 3: Execute o arquivo
 >> Esse script espera que dois diretórios sejam passados por parâmetro
 ```console
-$ ./backup.sh ./origem/ ./destino/
+./backup.sh ./origem/ ./destino/
 ```
 
 ### Automatizar backup com cron tab:
 > 1: Edite o crontab
 ```console
-$ crontab -e
+crontab -e
 ```
 
 > 1: Adicione uma nova rotina com a frequência necessária
