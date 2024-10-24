@@ -26,5 +26,5 @@ $ crontab -e
 >> Insira o comando a ser executado como se estivesse em qualquer terminal, só que sob a perspectiva de diretórios que o SO usa (parta da raiz)  
 >> No exemplo a seguir, ele executa o arquivo backup.sh 1x ao dia, às 2 horas da manhã  
 ```console
-$ 0 2 * * * /home/.../backup.sh /home/.../origem/ /home/.../destino/ >> /home/.../logs/backup.log 2>&1
+0 2 * * * /home/.../backup.sh /home/.../origem/ /home/.../destino/ >> /home/.../logs/backup.log 2>&1
 ```
